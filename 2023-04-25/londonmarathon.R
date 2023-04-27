@@ -3,6 +3,9 @@ library(ggrepel)
 library(geomtextpath)
 
 # kinda weak (narratively and graphically) but good enough i guess 
+# interesting thing to grok with the density plot:  
+  # the y-axis is the probability density (aka relative likelihood) of that value 
+  # if you integrate the area underneath any of the curves it should be 1
 
 winners <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-04-25/winners.csv')
 london_marathon <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-04-25/london_marathon.csv') %>% 

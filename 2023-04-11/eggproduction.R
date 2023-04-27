@@ -1,7 +1,7 @@
 library(tidyverse)
 
 # There was some stuff I wanted to do that I didn't get to here: 
-  # Direct labels - the offset kept getting messy using ggtextpath::geom_linelabel() 
+  # Direct labels - the offset kept getting messy using geomtextpath::geom_linelabel() 
     # geom_textline(vjust=-0.6, size=3, hjust=0.1, linewidth=0.5, offset = unit(-0.6, "inch"), padding = unit(0.8, "inch")) + 
   # Arrows - I ended up going with just rotated text in the box instead of having an arrow but that's a useful snippet I think 
     # annotate("segment", x = as.Date("2019-06-01"), xend = as.Date("2019-12-01"), y = 800e6, yend = 800e6,
